@@ -15,7 +15,6 @@ function App(){
         </button>
         <h1>{tarjeta.titulo}</h1>
         <p>{tarjeta.texto}</p>
-        <span className='contador'>{indice + 1} / {TARJETAS.length}</span>
     </div>
     )
 }
